@@ -1,0 +1,45 @@
+.search-form {
+    display: flex;
+    width: 100%;
+}
+
+.form-group {
+    display: block;
+    width: 100%;
+} 
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    border-radius: 5px;
+    margin-bottom: 15px;
+    height: 50px;
+}
+
+.input-group-append {
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+
+#today {
+    height: 50%;
+    width: 100%;
+    border: 2px solid;
+    margin: 5px;
+    padding: 5px
+}
+
+#forecast {
+    height: 50%;
+    width: 100%
+}
