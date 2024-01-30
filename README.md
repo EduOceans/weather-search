@@ -22,6 +22,7 @@ To run the website locally, follow these steps:
 
 ## Usage
 You can have a look at the website [here](https://eduoceans.github.io/weather-search)
+![Screenshot](https://github.com/EduOceans/weather-search/assets/150608334/6593c318-0a81-4eae-9136-a28de1db87d0)
 
 
 ## License
