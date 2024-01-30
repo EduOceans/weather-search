@@ -21,7 +21,7 @@ function displayWeatherInfo (event) {
 
     const storedForecast = localStorage.getItem(location);
     // Retrieves coordinates
-    var queryURL1 = `http://api.openweathermap.org/geo/1.0/direct?q=${location}&appid=${APIKEY}`;
+    var queryURL1 = `https://api.openweathermap.org/geo/1.0/direct?q=${location}&appid=${APIKEY}`;
 
     fetch(queryURL1)
     .then(function (response) {
