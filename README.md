@@ -1,4 +1,4 @@
-# weather-search
+# Weather search
 ![EduOceans](https://img.shields.io/badge/Edu-Oceans-blue)
 
 Welcome to the Weather Search App! This application allows users to quickly and easily retrieve weather information for different locations. Whether you're planning a trip, checking the weather in your hometown, or just curious about the current conditions, this app provides a user-friendly interface to get accurate and up-to-date weather data.
