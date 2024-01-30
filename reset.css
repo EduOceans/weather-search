@@ -1,3 +1,12 @@
+.weather-header {
+    background: rgb(75,124,204);
+    background: linear-gradient(90deg, rgba(75,124,204,1) 0%, rgba(43,43,196,1) 26%, rgba(44,41,106,1) 84%);
+}
+
+#form-heading {
+    font-weight: bold;
+}
+
 .search-form {
     display: flex;
     width: 100%;
@@ -7,6 +16,10 @@
     display: block;
     width: 100%;
 } 
+
+#search-button {
+    width: 100%;
+}
 
 .input-group{
     display: flex;
@@ -20,26 +33,40 @@
 }
 
 .input-group-append {
-    background-color: blue;
+    background: rgb(135,209,226);
+    background: linear-gradient(90deg, rgba(135,209,226,1) 0%, rgba(143,216,235,1) 26%);
     border-radius: 5px;
+}
+
+.hr {
+    width: 100%;
+    border-top: 2px solid rgba(0,0,0,.3);
 }
 
 .location {
     display: flex;
     flex-direction: column;
+    height: 40px;
+    background-color: rgb(219, 213, 213);
+    align-items: center;
+    justify-content: center;
     margin: 10px 0px;
     border-radius: 5px;
 }
 
-#today {
-    height: 50%;
-    width: 100%;
+#today.city {
     border: 2px solid;
-    margin: 5px;
-    padding: 5px
 }
 
-#forecast {
-    height: 50%;
-    width: 100%
+#today h3, #today div {
+    padding: 10px 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-weight:bolder;
 }
